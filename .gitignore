@@ -1,0 +1,45 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/frontend/currencypulse/node_modules
+/frontend/currencypulse/.pnp
+/frontend/currencypulse/.pnp.*
+/frontend/currencypulse/.yarn/*
+!/frontend/currencypulse/.yarn/patches
+!/frontend/currencypulse/.yarn/plugins
+!/frontend/currencypulse/.yarn/releases
+!/frontend/currencypulse/.yarn/versions
+
+# testing
+/frontend/currencypulse/coverage
+
+# next.js
+/frontend/currencypulse/.next/
+/frontend/currencypulse/out/
+
+# production
+/frontend/currencypulse/build
+
+# misc
+/frontend/currencypulse/.DS_Store
+/frontend/currencypulse/*.pem
+
+# debug
+/frontend/currencypulse/npm-debug.log*
+/frontend/currencypulse/yarn-debug.log*
+/frontend/currencypulse/yarn-error.log*
+/frontend/currencypulse/.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+/frontend/currencypulse/.env*
+
+# vercel
+/frontend/currencypulse/.vercel
+
+# typescript
+/frontend/currencypulse/*.tsbuildinfo
+/frontend/currencypulse/next-env.d.ts
+
+# env files (can opt-in for committing if needed)
+/backend/.env*
+/backend/myenv
